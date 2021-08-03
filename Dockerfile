@@ -14,7 +14,7 @@ RUN apt-get update && \
                        wget \
                        python3-pip \
                        clang-format-10 \
-		       binutils-2.26 \
+		       binutils \
                        bsdmainutils
 
 ENV LC_ALL=C.UTF-8
